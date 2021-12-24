@@ -17,6 +17,12 @@
 	<p>
 	    <input type="submit">
 	</p>
+	{% if error %}
+        <p>{{error}}! </p>
+        {% endif %}
+
+	</p>
+
     </form>
 
 </body>
